@@ -20,7 +20,7 @@ setTimeout(() => {
             about.style.opacity = '1';
 
             setTimeout(() => {
-                arrow.style.bottom = 16 + 'px';
+                arrow.style.bottom = 64 + 'px';
                 arrow.style.opacity = '1';
             }, 1000);
         }, 250);
