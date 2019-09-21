@@ -4,28 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Илья Орлов</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap">
     <link rel="stylesheet" href="public/build/app.css">
 </head>
 <body>
     <div id="header" style="background-image: url(public/img/background.jpg)">
         <div class="container">
-            <h1 id="title">Привет ✌🏻,<br>Меня зовут <span>Илья Орлов</span></h1>
+            <h1 id="title">Привет ✌🏻,<br>Меня зовут <span>Илья</span></h1>
             <p id="subtitle">Я начинающий Backend-разработчик</p>
             <button id="about">Обо мне</button>
         </div>
-        <div id="arrow">
-            <img src="public/img/arrow.svg" alt="">
-        </div>
     </div>
     <div class="container">
-        <div class="portfolio">
-            <h2>Портфолио</h2>
+        <div class="section">
+            <h2 class="section_title">Портфолио</h2>
 
             <div class="portfolio_item">
                 <div class="portfolio_item_title">
-                    <h3 class="portfolio_item_title_text">Социальная Сеть</h3>
+                    <h3 class="portfolio_item_title_text">Социальная сеть</h3>
                 </div>
                 <div class="portfolio_item_content">
                     <img class="portfolio_item_content_image" src="public/img/mark.png" alt="Mark">
@@ -34,7 +31,7 @@
                         <p class="portfolio_item_content_description_stack">Symfony 4 - jQuery - Sass - Webpack Encore</p>
                         <div class="portfolio_item_content_description_button">
                             <a class="portfolio_item_content_description_button_visit" href="https://mark.mcdir.ru/" target="_blank">Перейти</a>
-                            <a class="portfolio_item_content_description_button_source" href="https://github.com/iluxaorlov/projectMark" target="_blank">Исходный код</a>
+                            <a class="portfolio_item_content_description_button_source" href="https://github.com/iluxaorlov/projectMark" target="_blank">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -42,7 +39,7 @@
 
             <div class="portfolio_item">
                 <div class="portfolio_item_title">
-                    <h3 class="portfolio_item_title_text">Групповой Чат</h3>
+                    <h3 class="portfolio_item_title_text">Групповой чат</h3>
                 </div>
                 <div class="portfolio_item_content">
                     <div class="portfolio_item_content_description">
@@ -50,7 +47,7 @@
                         <p class="portfolio_item_content_description_stack">PHP - JavaScript - SCSS - Webpack</p>
                         <div class="portfolio_item_content_description_button">
                             <a class="portfolio_item_content_description_button_visit" href="https://flux.mcdir.ru/" target="_blank">Перейти</a>
-                            <a class="portfolio_item_content_description_button_source" href="https://github.com/iluxaorlov/projectFlux" target="_blank">Исходный код</a>
+                            <a class="portfolio_item_content_description_button_source" href="https://github.com/iluxaorlov/projectFlux" target="_blank">GitHub</a>
                         </div>
                     </div>
                     <img class="portfolio_item_content_image" src="public/img/flux.png" alt="Flux">
@@ -59,7 +56,7 @@
 
             <div class="portfolio_item">
                 <div class="portfolio_item_title">
-                    <h3 class="portfolio_item_title_text">Список Задач</h3>
+                    <h3 class="portfolio_item_title_text">Список задач</h3>
                 </div>
                 <div class="portfolio_item_content">
                     <img class="portfolio_item_content_image" src="public/img/todos.png" alt="Todos">
@@ -68,7 +65,7 @@
                         <p class="portfolio_item_content_description_stack">Slim 3 - JavaScript - SCSS - Webpack - Phinx</p>
                         <div class="portfolio_item_content_description_button">
                             <a class="portfolio_item_content_description_button_visit" href="https://todos.mcdir.ru/" target="_blank">Перейти</a>
-                            <a class="portfolio_item_content_description_button_source" href="https://github.com/iluxaorlov/projectTodos" target="_blank">Исходный код</a>
+                            <a class="portfolio_item_content_description_button_source" href="https://github.com/iluxaorlov/projectTodos" target="_blank">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +73,7 @@
 
             <div class="portfolio_item">
                 <div class="portfolio_item_title">
-                    <h3 class="portfolio_item_title_text">Сокращатель Ссылок</h3>
+                    <h3 class="portfolio_item_title_text">Сокращатель ссылок</h3>
                 </div>
                 <div class="portfolio_item_content">
                     <div class="portfolio_item_content_description">
@@ -84,7 +81,7 @@
                         <p class="portfolio_item_content_description_stack">Slim 3 - JavaScript - SCSS - Webpack - Phinx</p>
                         <div class="portfolio_item_content_description_button">
                             <a class="portfolio_item_content_description_button_visit" href="https://linky.mcdir.ru/" target="_blank">Перейти</a>
-                            <a class="portfolio_item_content_description_button_source" href="https://github.com/iluxaorlov/projectLinky" target="_blank">Исходный код</a>
+                            <a class="portfolio_item_content_description_button_source" href="https://github.com/iluxaorlov/projectLinky" target="_blank">GitHub</a>
                         </div>
                     </div>
                     <img class="portfolio_item_content_image" src="public/img/linky.png" alt="Linky">
@@ -92,6 +89,13 @@
             </div>
 
         </div>
+
+        <section id="contact">
+            <h2 id="contact_title">Контакты</h2>
+            <h3 id="contact_subtitle">Пишите, если есть вопросы</h3>
+            <a id="contact_email" href="mailto:iluxaorlov@yandex.ru">iluxaorlov@yandex.ru</a>
+        </section>
+
     </div>
 
     <script src="public/build/app.js"></script>

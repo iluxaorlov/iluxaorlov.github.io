@@ -4,10 +4,12 @@ const header = document.getElementById('header');
 const title = document.getElementById('title');
 const subtitle = document.getElementById('subtitle');
 const about = document.getElementById('about');
-const arrow = document.getElementById('arrow');
+
+window.addEventListener('beforeunload', () => {
+    window.scrollTo(0, 0);
+});
 
 setTimeout(() => {
-    window.scrollTo(0, 0);
     header.style.opacity = '1';
     title.style.opacity = '1';
     title.style.transform = 'translateX(0)';
@@ -18,11 +20,7 @@ setTimeout(() => {
 
         setTimeout(() => {
             about.style.opacity = '1';
-
-            setTimeout(() => {
-                arrow.style.bottom = 64 + 'px';
-                arrow.style.opacity = '1';
-            }, 1000);
+            document.body.style.overflowY = 'visible';
         }, 250);
     }, 250);
 }, 250);
