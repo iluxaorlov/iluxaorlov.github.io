@@ -9,21 +9,28 @@
     <link rel="stylesheet" href="public/build/app.css">
 </head>
 <body>
-    <div id="menu" class="open">
-        <span class="menu_line"></span>
-        <span class="menu_line"></span>
-        <span class="menu_line"></span>
-    </div>
-    <div id="header" style="background-image: url(public/img/background.jpg)">
-        <div class="container">
-            <h1 id="title">Привет ✌🏻,<br>Меня зовут <span>Илья</span></h1>
-            <p id="subtitle">Я начинающий Backend-разработчик</p>
-            <button id="about">Обо мне</button>
+    <nav id="menu">
+        <div id="menu_burger" class="open">
+            <span class="menu_burger_line"></span>
+            <span class="menu_burger_line"></span>
+            <span class="menu_burger_line"></span>
         </div>
-    </div>
+        <a class="menu_link" href="#about">Обо мне</a>
+        <a class="menu_link" href="#portfolio">Мои работы</a>
+        <a class="menu_link" href="#contact">Контакты</a>
+    </nav>
+    <!-- Header -->
+    <header id="header" style="background-image: url(public/img/background.jpg)">
+        <div class="container">
+            <h1 id="header_title">Привет ✌🏻,<br>Меня зовут <span>Илья Орлов</span></h1>
+            <p id="header_subtitle">Я начинающий Backend-разработчик</p>
+            <button id="header_about">Обо мне</button>
+        </div>
+    </header>
+
     <div class="container">
         <section id="portfolio">
-            <h2 id="portfolio_title">Портфолио</h2>
+            <h2 id="portfolio_title">Мои работы</h2>
 
             <div class="portfolio_item">
                 <div class="portfolio_item_title">
@@ -97,7 +104,6 @@
 
         <section id="contact">
             <h2 id="contact_title">Контакты</h2>
-            <h3 id="contact_subtitle">Пишите, если есть вопросы</h3>
             <a id="contact_email" href="mailto:iluxaorlov@yandex.ru">iluxaorlov@yandex.ru</a>
         </section>
 

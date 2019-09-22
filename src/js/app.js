@@ -1,3 +1,3 @@
 import '../scss/app.scss';
-import '../js/menu.js';
+import '../js/button.js';
 import '../js/loading.js';
