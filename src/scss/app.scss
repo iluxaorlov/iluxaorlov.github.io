@@ -121,6 +121,27 @@
     }
 }
 
+#about {
+    margin: 64px 0 128px;
+
+    #about_title {
+        color: #0080ff;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 900;
+        margin-bottom: 64px;
+        text-transform: uppercase;
+    }
+
+    #about_text {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 1.5;
+    }
+}
+
 #portfolio {
     margin: 64px 0;
 
