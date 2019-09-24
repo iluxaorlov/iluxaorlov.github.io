@@ -26,7 +26,6 @@ setTimeout(() => {
             about.style.opacity = '1';
             document.body.style.overflowY = 'visible';
             button.style.opacity = '1';
-            document.body.style.backgroundColor = '#000000';
         }, 250);
     }, 250);
 }, 250);

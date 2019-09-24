@@ -8,7 +8,6 @@
     body {
         margin-right: calc(100% - 100vw);
         overflow: hidden;
-        background-color: #ffffff;
     }
 }
 
@@ -17,7 +16,7 @@
     position: fixed;
     height: 100vh;
     width: 100vw;
-    background-color: #000000;
+    background-color: #ffffff;
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -26,11 +25,11 @@
     transition: top 250ms linear;
 
     .menu_link {
-        color: #ffffff;
+        color: #000000;
         text-decoration: none;
         font-size: 24px;
         text-transform: uppercase;
-        padding: 16px;
+        padding: 32px;
         font-weight: 900;
         transition: color 250ms linear;
 
@@ -113,6 +112,7 @@
         color: #ffffff;
         cursor: pointer;
         opacity: 0;
+        text-decoration: none;
         transition: all 250ms linear;
 
         &:hover {
@@ -122,7 +122,7 @@
 }
 
 #about {
-    margin: 64px 0 128px;
+    padding: 64px 0;
 
     #about_title {
         color: #0080ff;
@@ -133,12 +133,36 @@
         text-transform: uppercase;
     }
 
-    #about_text {
-        color: #ffffff;
+    .about_text {
+        color: #000000;
         font-size: 24px;
         font-weight: 300;
         text-align: center;
         line-height: 1.5;
+        margin-bottom: 16px;
+
+        span {
+            font-weight: 500;
+        }
+    }
+    
+    #about_stack {
+        padding: 32px 0;
+
+        #about_stack_title {
+            font-weight: 300;
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+
+        #about_stack_list {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 900;
+            color: #0080ff;
+            font-size: 16px;
+        }
     }
 }
 
@@ -163,7 +187,7 @@
 
             .portfolio_item_title_text {
                 display: inline;
-                color: #ffffff;
+                color: #000000;
                 font-size: 24px;
                 font-weight: 400;
             }
@@ -184,7 +208,7 @@
                     font-size: 16px;
                     margin-bottom: 16px;
                     line-height: 1.5;
-                    color: #ffffff;
+                    color: #000000;
                 }
 
                 .portfolio_item_content_description_stack {
@@ -192,7 +216,7 @@
                     text-transform: uppercase;
                     font-weight: 900;
                     margin-bottom: 16px;
-                    color: #ffffff;
+                    color: #000000;
                 }
 
                 .portfolio_item_content_description_button {
@@ -226,8 +250,8 @@
                         text-transform: uppercase;
                         border: none;
                         border-radius: 46px;
-                        color: #ffffff;
-                        border: solid 1px #ffffff;
+                        color: #000000;
+                        border: solid 1px #000000;
                         cursor: pointer;
                         transition: all 250ms linear;
 
@@ -254,9 +278,34 @@
         margin-bottom: 64px;
     }
 
-    #contact_email {
-        color: #ffffff;
-        text-decoration: none;
-        font-size: 24px;
+    #contact_items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #contact_item_github {
+            display: flex;
+
+            img {
+                width: 32px;
+            }
+        }
+
+        #contact_item_email {
+            display: flex;
+            margin: 32px;
+
+            img {
+                width: 32px;
+            }
+        }
+
+        #contact_item_telegram {
+            display: flex;
+
+            img {
+                width: 32px;
+            }
+        }
     }
 }
