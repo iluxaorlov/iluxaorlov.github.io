@@ -15,11 +15,11 @@
         .menu_link {
             color: #000000;
             text-decoration: none;
-            font-size: 24px;
+            font-size: 16px;
             text-transform: uppercase;
-            padding: 32px;
+            padding: 16px;
             font-weight: 900;
-            transition: color 250ms linear;
+            transition: transform 250ms linear;
     
             &:hover {
                 color: #0080ff;
@@ -29,22 +29,30 @@
         #menu_burger {
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
             opacity: 0;
-            width: 32px;
-            height: 24px;
+            width: 48px;
+            height: 48px;
             position: fixed;
             right: 32px;
             top: 32px;
             cursor: pointer;
             transition: all 250ms linear;
             z-index: 2;
+            background-color: #0080ff;
+            border-radius: 100%;
         
             .menu_burger_line {
                 display: flex;
                 height: 2px;
-                background-color: #0080ff;
+                width: 16px;
+                background-color: #ffffff;
                 transition: all 250ms linear;
+
+                &:first-child {
+                    margin-bottom: 4px;
+                }
             }
         }
     }
@@ -55,7 +63,7 @@
         #header_title {
             line-height: 1.5;
             width: 100%;
-            font-size: 32px;
+            font-size: 28px;
             font-weight: 300;
             margin-bottom: 16px;
             transform: translateX(64px);
@@ -64,7 +72,7 @@
     
             span {
                 color: #0080ff;
-                font-weight: 700;
+                font-weight: 900;
             }
         }
     
@@ -78,13 +86,16 @@
         }
     
         #header_about {
-            display: inline-flex;
-            padding: 14px 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 48px;
+            width: 96px;
             font-size: 10px;
             font-weight: 900;
             text-transform: uppercase;
             border: none;
-            border-radius: 46px;
+            border-radius: 48px;
             background-color: #0080ff;
             color: #ffffff;
             cursor: pointer;
@@ -158,7 +169,11 @@
         }
     
         .portfolio_item {
-            margin-bottom: 128px;
+            margin-bottom: 64px;
+
+            &:last-child {
+                margin: 0;
+            }
     
             .portfolio_item_title {
                 text-align: center;
