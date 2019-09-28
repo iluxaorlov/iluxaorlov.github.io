@@ -197,17 +197,17 @@
             text-align: center;
             font-size: 16px;
             font-weight: 900;
-            margin-bottom: 32px;
+            margin-bottom: 64px;
             text-transform: uppercase;
         }
-    
+
         .portfolio_item {
             margin-bottom: 64px;
 
             &:last-child {
                 margin: 0;
             }
-    
+
             .portfolio_item_title {
                 text-align: center;
                 margin-bottom: 16px;
@@ -219,7 +219,7 @@
                     font-weight: 700;
                 }
             }
-    
+
             .portfolio_item_content {
                 display: flex;
                 flex-direction: column;
@@ -229,7 +229,7 @@
                     height: 100%;
                     margin-bottom: 16px;
                 }
-    
+
                 .portfolio_item_content_description {
                     .portfolio_item_content_description_text {
                         font-size: 16px;
@@ -239,7 +239,7 @@
                         text-align: center;
                         font-weight: 400;
                     }
-    
+
                     .portfolio_item_content_description_stack {
                         text-align: center;
                         text-transform: uppercase;
@@ -249,10 +249,11 @@
                         line-height: 1.5;
                         margin-bottom: 16px;
                     }
-    
+
                     .portfolio_item_content_description_button {
                         display: flex;
                         align-items: center;
+                        justify-content: center;
     
                         .portfolio_item_content_description_button_visit {
                             display: flex;
@@ -270,13 +271,13 @@
                             cursor: pointer;
                             transition: all 250ms linear;
                             margin-right: 16px;
-                            width: 100%;
-    
+                            width: 120px;
+
                             &:hover {
                                 transform: translateY(-4px);
                             }
                         }
-    
+
                         .portfolio_item_content_description_button_source {
                             display: flex;
                             justify-content: center;
@@ -292,8 +293,8 @@
                             border: solid 1px #000000;
                             cursor: pointer;
                             transition: all 250ms linear;
-                            width: calc(100% - 2px);
-    
+                            width: 118px;
+
                             &:hover {
                                 transform: translateY(-4px);
                             }

@@ -11,5 +11,5 @@ button.addEventListener('click', (event) => {
         if (document.getElementById('about').getBoundingClientRect().y <= 0) {
             clearInterval(interval);
         }
-    }, 1000 / 120);
+    }, 1000 / 240);
 });
