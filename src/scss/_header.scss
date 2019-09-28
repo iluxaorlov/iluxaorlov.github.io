@@ -66,12 +66,12 @@
     @media screen and (max-width: 425px) {
         #elements {
             padding: 0 32px;
-    
+
             #header_title {
                 line-height: 1.5;
                 width: 100%;
                 font-size: 32px;
-                font-weight: 100;
+                font-weight: 300;
                 margin-bottom: 14px;
                 transform: translateX(64px);
                 opacity: 0;
@@ -79,13 +79,13 @@
         
                 span {
                     color: #0080ff;
-                    font-weight: 900;
+                    font-weight: 700;
                 }
             }
         
             #header_subtitle {
                 font-size: 14px;
-                font-weight: 300;
+                font-weight: 400;
                 margin-bottom: 64px;
                 transform: translateY(32px);
                 opacity: 0;
@@ -99,7 +99,7 @@
                 align-items: center;
                 height: 48px;
                 width: 96px;
-                font-size: 10px;
+                font-size: 12px;
                 font-weight: 900;
                 text-transform: uppercase;
                 border: none;

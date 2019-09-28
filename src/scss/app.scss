@@ -11,73 +11,14 @@
     }
 }
 
-#menu {
-    top: -100vh;
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    background-color: #ffffff;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: top 250ms linear;
-
-    .menu_link {
-        color: #000000;
-        text-decoration: none;
-        font-size: 32px;
-        text-transform: uppercase;
-        padding: 32px;
-        font-weight: 900;
-        transition: transform 250ms linear;
-
-        &:hover {
-            color: #0080ff;
-        }
-    }
-
-    #menu_burger {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        opacity: 0;
-        width: 48px;
-        height: 48px;
-        position: fixed;
-        right: 64px;
-        top: 64px;
-        cursor: pointer;
-        transition: all 250ms linear;
-        z-index: 2;
-        background-color: #0080ff;
-        border-radius: 100%;
-    
-        .menu_burger_line {
-            display: flex;
-            height: 2px;
-            width: 16px;
-            background-color: #ffffff;
-            transition: all 250ms linear;
-
-            &:first-child {
-                margin-bottom: 4px;
-            }
-        }
-    }
-}
-
 .container {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
 }
 
+@import 'menu';
 @import 'header';
 @import 'about';
 @import 'portfolio';
 @import 'contact';
-
-@import 'mobile';
