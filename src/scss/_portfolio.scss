@@ -1,11 +1,11 @@
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 750px) {
     #portfolio {
-        padding: 64px 0;
-    
+        padding: 64px;
+
         #portfolio_title {
             color: #0080ff;
             text-align: center;
-            font-size: 24px;
+            font-size: 28px;
             font-weight: 900;
             margin-bottom: 64px;
             text-transform: uppercase;
@@ -21,13 +21,13 @@
             &:nth-child(odd) {
                 .portfolio_item_title {
                     text-align: center;
-                    margin-bottom: 32px;
+                    margin-bottom: 24px;
         
                     .portfolio_item_title_text {
                         display: inline;
                         color: #000000;
                         font-size: 24px;
-                        font-weight: 400;
+                        font-weight: 900;
                     }
                 }
         
@@ -41,7 +41,7 @@
                     }
         
                     .portfolio_item_content_description {
-                        margin: 16px 32px;
+                        margin: 32px;
         
                         .portfolio_item_content_description_text {
                             font-size: 16px;
@@ -56,6 +56,7 @@
                             font-weight: 900;
                             margin-bottom: 16px;
                             color: #000000;
+                            line-height: 1.5;
                         }
         
                         .portfolio_item_content_description_button {
@@ -63,13 +64,17 @@
                             align-items: center;
         
                             .portfolio_item_content_description_button_visit {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
                                 text-decoration: none;
-                                padding: 16px 32px;
-                                font-size: 12px;
+                                font-size: 10px;
                                 font-weight: 900;
                                 text-transform: uppercase;
                                 border: none;
-                                border-radius: 46px;
+                                height: 48px;
+                                width: 120px;
+                                border-radius: 48px;
                                 background-color: #0080ff;
                                 color: #ffffff;
                                 cursor: pointer;
@@ -82,13 +87,17 @@
                             }
         
                             .portfolio_item_content_description_button_source {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
                                 text-decoration: none;
-                                padding: 14px 30px;
-                                font-size: 12px;
+                                font-size: 10px;
                                 font-weight: 900;
                                 text-transform: uppercase;
                                 border: none;
-                                border-radius: 46px;
+                                height: 46px;
+                                width: 118px;
+                                border-radius: 48px;
                                 color: #000000;
                                 border: solid 1px #000000;
                                 cursor: pointer;
@@ -102,83 +111,94 @@
                     }
                 }
             }
-    
-            .portfolio_item_title {
-                text-align: center;
-                margin-bottom: 32px;
-    
-                .portfolio_item_title_text {
-                    display: inline;
-                    color: #000000;
-                    font-size: 24px;
-                    font-weight: 400;
-                }
-            }
-    
-            .portfolio_item_content {
-                display: flex;
-    
-                .portfolio_item_content_image {
-                    width: 50%;
-                    height: 50%;
-                }
-    
-                .portfolio_item_content_description {
-                    margin: 16px 32px;
-    
-                    .portfolio_item_content_description_text {
-                        font-size: 16px;
-                        margin-bottom: 16px;
-                        line-height: 1.5;
+
+            &:nth-child(even) {
+                .portfolio_item_title {
+                    text-align: center;
+                    margin-bottom: 24px;
+        
+                    .portfolio_item_title_text {
+                        display: inline;
                         color: #000000;
-                    }
-    
-                    .portfolio_item_content_description_stack {
-                        font-size: 12px;
-                        text-transform: uppercase;
+                        font-size: 24px;
                         font-weight: 900;
-                        margin-bottom: 16px;
-                        color: #000000;
                     }
-    
-                    .portfolio_item_content_description_button {
-                        display: flex;
-                        align-items: center;
-    
-                        .portfolio_item_content_description_button_visit {
-                            text-decoration: none;
-                            padding: 16px 32px;
-                            font-size: 12px;
-                            font-weight: 900;
-                            text-transform: uppercase;
-                            border: none;
-                            border-radius: 46px;
-                            background-color: #0080ff;
-                            color: #ffffff;
-                            cursor: pointer;
-                            transition: all 250ms linear;
-                            margin-right: 16px;
-    
-                            &:hover {
-                                transform: translateY(-4px);
-                            }
-                        }
-    
-                        .portfolio_item_content_description_button_source {
-                            text-decoration: none;
-                            padding: 14px 30px;
-                            font-size: 12px;
-                            font-weight: 900;
-                            text-transform: uppercase;
-                            border: none;
-                            border-radius: 46px;
+                }
+        
+                .portfolio_item_content {
+                    display: flex;
+        
+                    .portfolio_item_content_image {
+                        width: 50%;
+                        height: 50%;
+                    }
+        
+                    .portfolio_item_content_description {
+                        margin: 32px;
+        
+                        .portfolio_item_content_description_text {
+                            font-size: 16px;
+                            margin-bottom: 16px;
+                            line-height: 1.5;
                             color: #000000;
-                            border: solid 1px #000000;
-                            cursor: pointer;
-                            transition: all 250ms linear;
-    
-                            &:hover {
-                                transform: translateY(-4px);
+                        }
+        
+                        .portfolio_item_content_description_stack {
+                            font-size: 12px;
+                            text-transform: uppercase;
+                            font-weight: 900;
+                            margin-bottom: 16px;
+                            color: #000000;
+                            line-height: 1.5;
+                        }
+
+                        .portfolio_item_content_description_button {
+                            display: flex;
+                            align-items: center;
+        
+                            .portfolio_item_content_description_button_visit {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                text-decoration: none;
+                                font-size: 10px;
+                                font-weight: 900;
+                                text-transform: uppercase;
+                                border: none;
+                                height: 48px;
+                                width: 120px;
+                                border-radius: 48px;
+                                background-color: #0080ff;
+                                color: #ffffff;
+                                cursor: pointer;
+                                transition: all 250ms linear;
+                                margin-right: 16px;
+        
+                                &:hover {
+                                    transform: translateY(-4px);
+                                }
+                            }
+        
+                            .portfolio_item_content_description_button_source {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                text-decoration: none;
+                                font-size: 10px;
+                                font-weight: 900;
+                                text-transform: uppercase;
+                                border: none;
+                                height: 46px;
+                                width: 118px;
+                                border-radius: 48px;
+                                color: #000000;
+                                border: solid 1px #000000;
+                                cursor: pointer;
+                                transition: all 250ms linear;
+        
+                                &:hover {
+                                    transform: translateY(-4px);
+                                }
                             }
                         }
                     }
@@ -188,16 +208,16 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 750px) and (min-width: 500px) {
     #portfolio {
-        padding: 64px 32px;
+        padding: 48px;
     
         #portfolio_title {
             color: #0080ff;
             text-align: center;
-            font-size: 16px;
+            font-size: 21px;
             font-weight: 900;
-            margin-bottom: 64px;
+            margin-bottom: 32px;
             text-transform: uppercase;
         }
 
@@ -216,7 +236,7 @@
                     display: inline;
                     color: #000000;
                     font-size: 16px;
-                    font-weight: 700;
+                    font-weight: 900;
                 }
             }
 
@@ -245,9 +265,9 @@
                         text-transform: uppercase;
                         font-weight: 900;
                         color: #000000;
-                        font-size: 12px;
+                        font-size: 14px;
                         line-height: 1.5;
-                        margin-bottom: 16px;
+                        margin-bottom: 14px;
                     }
 
                     .portfolio_item_content_description_button {
@@ -261,40 +281,158 @@
                             align-items: center;
                             text-decoration: none;
                             font-size: 10px;
-                            height: 48px;
                             font-weight: 900;
                             text-transform: uppercase;
                             border: none;
+                            height: 48px;
+                            width: 120px;
                             border-radius: 48px;
                             background-color: #0080ff;
                             color: #ffffff;
                             cursor: pointer;
                             transition: all 250ms linear;
                             margin-right: 16px;
-                            width: 120px;
-
+    
                             &:hover {
                                 transform: translateY(-4px);
                             }
                         }
-
+    
                         .portfolio_item_content_description_button_source {
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            height: 46px;
                             text-decoration: none;
                             font-size: 10px;
                             font-weight: 900;
                             text-transform: uppercase;
                             border: none;
+                            height: 46px;
+                            width: 118px;
                             border-radius: 48px;
                             color: #000000;
                             border: solid 1px #000000;
                             cursor: pointer;
                             transition: all 250ms linear;
-                            width: 118px;
+    
+                            &:hover {
+                                transform: translateY(-4px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
+@media screen and (max-width: 500px) {
+    #portfolio {
+        padding: 32px;
+    
+        #portfolio_title {
+            color: #0080ff;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 900;
+            margin-bottom: 32px;
+            text-transform: uppercase;
+        }
+
+        .portfolio_item {
+            margin-bottom: 64px;
+
+            &:last-child {
+                margin: 0;
+            }
+
+            .portfolio_item_title {
+                text-align: center;
+                margin-bottom: 14px;
+    
+                .portfolio_item_title_text {
+                    display: inline;
+                    color: #000000;
+                    font-size: 14px;
+                    font-weight: 900;
+                }
+            }
+
+            .portfolio_item_content {
+                display: flex;
+                flex-direction: column;
+    
+                .portfolio_item_content_image {
+                    width: 100%;
+                    height: 100%;
+                    margin-bottom: 14px;
+                }
+
+                .portfolio_item_content_description {
+                    .portfolio_item_content_description_text {
+                        font-size: 14px;
+                        margin-bottom: 14px;
+                        line-height: 1.5;
+                        color: #000000;
+                        text-align: center;
+                        font-weight: 400;
+                    }
+
+                    .portfolio_item_content_description_stack {
+                        text-align: center;
+                        text-transform: uppercase;
+                        font-weight: 900;
+                        color: #000000;
+                        font-size: 12px;
+                        line-height: 1.5;
+                        margin-bottom: 14px;
+                    }
+
+                    .portfolio_item_content_description_button {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+    
+                        .portfolio_item_content_description_button_visit {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            text-decoration: none;
+                            font-size: 10px;
+                            font-weight: 900;
+                            text-transform: uppercase;
+                            border: none;
+                            height: 48px;
+                            width: 120px;
+                            border-radius: 48px;
+                            background-color: #0080ff;
+                            color: #ffffff;
+                            cursor: pointer;
+                            transition: all 250ms linear;
+                            margin-right: 16px;
+    
+                            &:hover {
+                                transform: translateY(-4px);
+                            }
+                        }
+    
+                        .portfolio_item_content_description_button_source {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            text-decoration: none;
+                            font-size: 10px;
+                            font-weight: 900;
+                            text-transform: uppercase;
+                            border: none;
+                            height: 46px;
+                            width: 118px;
+                            border-radius: 48px;
+                            color: #000000;
+                            border: solid 1px #000000;
+                            cursor: pointer;
+                            transition: all 250ms linear;
+    
                             &:hover {
                                 transform: translateY(-4px);
                             }
