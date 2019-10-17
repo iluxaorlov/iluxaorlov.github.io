@@ -10,7 +10,7 @@
     opacity: 0;
     transition: opacity 250ms linear;
 
-    @media screen and (min-width: 750px) {
+    @media screen and (min-width: 900px) {
         #elements {
             padding: 0 64px;
     
@@ -63,7 +63,7 @@
         }
     }
 
-    @media screen and (max-width: 750px) and (min-width: 500px) {
+    @media screen and (max-width: 900px) and (min-width: 600px) {
         #elements {
             padding: 0 48px;
     
@@ -116,7 +116,7 @@
         }
     }
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 600px) {
         #elements {
             padding: 0 32px;
 
@@ -124,7 +124,7 @@
                 line-height: 1.5;
                 width: 100%;
                 font-size: 32px;
-                font-weight: 100;
+                font-weight: 300;
                 margin-bottom: 14px;
                 transform: translateX(64px);
                 opacity: 0;

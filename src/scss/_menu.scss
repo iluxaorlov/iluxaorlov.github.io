@@ -1,4 +1,4 @@
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 900px) {
     #menu {
         top: -100vh;
         position: fixed;
@@ -58,7 +58,7 @@
     }
 }
 
-@media screen and (max-width: 750px) and (min-width: 500px) {
+@media screen and (max-width: 900px) and (min-width: 600px) {
     #menu {
         top: -100vh;
         position: fixed;
@@ -118,7 +118,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     #menu {
         top: -100vh;
         position: fixed;
