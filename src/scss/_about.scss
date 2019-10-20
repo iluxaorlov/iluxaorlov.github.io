@@ -18,22 +18,22 @@
             text-align: center;
             line-height: 1.5;
             margin-bottom: 24px;
-    
+
             span {
                 font-weight: 900;
             }
         }
-        
+
         #about_stack {
-            margin-top: 64px;
-    
+            margin: 64px 0;
+
             #about_stack_title {
                 font-weight: 900;
                 text-align: center;
                 font-size: 24px;
                 margin-bottom: 24px;
             }
-    
+
             #about_stack_list {
                 text-align: center;
                 text-transform: uppercase;
@@ -41,6 +41,34 @@
                 color: #0080ff;
                 font-size: 16px;
                 line-height: 1.5;
+            }
+        }
+
+        #about_resume {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            #about_resume_button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 48px;
+                width: 120px;
+                font-size: 10px;
+                font-weight: 900;
+                text-transform: uppercase;
+                border: none;
+                border-radius: 48px;
+                background-color: #0080ff;
+                color: #ffffff;
+                cursor: pointer;
+                text-decoration: none;
+                transition: all 250ms linear;
+
+                &:hover {
+                    transform: translateY(-2px);
+                }
             }
         }
     }
@@ -49,7 +77,7 @@
 @media screen and (max-width: 900px) and (min-width: 600px) {
     #about {
         padding: 48px;
-    
+
         #about_title {
             color: #0080ff;
             text-align: center;
@@ -58,7 +86,7 @@
             margin-bottom: 48px;
             text-transform: uppercase;
         }
-    
+
         .about_text {
             color: #000000;
             font-size: 16px;
@@ -66,22 +94,22 @@
             text-align: center;
             line-height: 1.5;
             margin-bottom: 16px;
-    
+
             span {
                 font-weight: 900;
             }
         }
-        
+
         #about_stack {
-            margin-top: 48px;
-    
+            margin: 48px 0;
+
             #about_stack_title {
                 font-weight: 900;
                 text-align: center;
                 font-size: 16px;
                 margin-bottom: 16px;
             }
-    
+
             #about_stack_list {
                 text-align: center;
                 text-transform: uppercase;
@@ -89,6 +117,34 @@
                 color: #0080ff;
                 font-size: 14px;
                 line-height: 1.5;
+            }
+        }
+
+        #about_resume {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            #about_resume_button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 48px;
+                width: 120px;
+                font-size: 10px;
+                font-weight: 900;
+                text-transform: uppercase;
+                border: none;
+                border-radius: 48px;
+                background-color: #0080ff;
+                color: #ffffff;
+                cursor: pointer;
+                text-decoration: none;
+                transition: all 250ms linear;
+
+                &:hover {
+                    transform: translateY(-2px);
+                }
             }
         }
     }
@@ -97,7 +153,7 @@
 @media screen and (max-width: 600px) {
     #about {
         padding: 32px;
-    
+
         #about_title {
             color: #0080ff;
             text-align: center;
@@ -106,7 +162,7 @@
             margin-bottom: 32px;
             text-transform: uppercase;
         }
-    
+
         .about_text {
             color: #000000;
             font-size: 14px;
@@ -114,14 +170,14 @@
             text-align: center;
             line-height: 1.5;
             margin-bottom: 14px;
-    
+
             span {
                 font-weight: 900;
             }
         }
-        
+
         #about_stack {
-            margin-top: 32px;
+            margin: 32px 0;
 
             #about_stack_title {
                 font-weight: 900;
@@ -130,7 +186,7 @@
                 margin-bottom: 14px;
                 line-height: 1.5;
             }
-    
+
             #about_stack_list {
                 text-align: center;
                 text-transform: uppercase;
@@ -138,6 +194,34 @@
                 color: #0080ff;
                 font-size: 12px;
                 line-height: 1.5;
+            }
+        }
+
+        #about_resume {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            #about_resume_button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 48px;
+                width: 120px;
+                font-size: 10px;
+                font-weight: 900;
+                text-transform: uppercase;
+                border: none;
+                border-radius: 48px;
+                background-color: #0080ff;
+                color: #ffffff;
+                cursor: pointer;
+                text-decoration: none;
+                transition: all 250ms linear;
+
+                &:hover {
+                    transform: translateY(-2px);
+                }
             }
         }
     }
