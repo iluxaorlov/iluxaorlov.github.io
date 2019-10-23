@@ -5,17 +5,14 @@ const buttonLines = document.getElementsByClassName('menu_burger_line');
 const menu = document.getElementById('menu');
 
 button.addEventListener('click', () => {
-    if (button.className === 'open') {
+    if (button.className === 'open')
         open();
-    } else {
+    else
         close();
-    }
 });
 
 menu.addEventListener('click', (event) => {
-    if (event.target.className === 'menu_link') {
-        close();
-    }
+    if (event.target.className === 'menu_link') close();
 });
 
 function open() {
