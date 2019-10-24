@@ -13,11 +13,7 @@
     
         .portfolio_item {
             margin-bottom: 128px;
-    
-            &:last-child {
-                margin: 0;
-            }
-    
+
             &:nth-child(odd) {
                 .portfolio_item_title {
                     text-align: center;
@@ -207,6 +203,13 @@
                 }
             }
         }
+
+        #portfolio_footer {
+            font-size: 24px;
+            line-height: 1.5;
+            text-align: center;
+            font-weight: 300;
+        }
     }
 }
 
@@ -225,10 +228,6 @@
 
         .portfolio_item {
             margin-bottom: 96px;
-
-            &:last-child {
-                margin: 0;
-            }
 
             .portfolio_item_title {
                 text-align: center;
@@ -325,6 +324,13 @@
                 }
             }
         }
+
+        #portfolio_footer {
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: center;
+            font-weight: 400;
+        }
     }
 }
 
@@ -343,10 +349,6 @@
 
         .portfolio_item {
             margin-bottom: 64px;
-
-            &:last-child {
-                margin: 0;
-            }
 
             .portfolio_item_title {
                 text-align: center;
@@ -442,6 +444,13 @@
                     }
                 }
             }
+        }
+
+        #portfolio_footer {
+            font-size: 14px;
+            line-height: 1.5;
+            text-align: center;
+            font-weight: 400;
         }
     }
 }
