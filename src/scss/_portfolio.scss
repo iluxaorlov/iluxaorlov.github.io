@@ -202,13 +202,10 @@
                     }
                 }
             }
-        }
 
-        #portfolio_footer {
-            font-size: 24px;
-            line-height: 1.5;
-            text-align: center;
-            font-weight: 300;
+            &:last-child {
+                margin: 0;
+            }
         }
     }
 }
@@ -323,13 +320,10 @@
                     }
                 }
             }
-        }
 
-        #portfolio_footer {
-            font-size: 16px;
-            line-height: 1.5;
-            text-align: center;
-            font-weight: 400;
+            &:last-child {
+                margin: 0;
+            }
         }
     }
 }
@@ -443,6 +437,10 @@
                         }
                     }
                 }
+            }
+
+            &:last-child {
+                margin: 0;
             }
         }
     }
